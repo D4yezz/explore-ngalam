@@ -64,19 +64,19 @@ export default function Welcome() {
           className="w-full h-full object-cover absolute z-0 brightness-75"
         />
         <div className="z-10 relative w-full h-full flex flex-col gap-4 items-center justify-center">
-          <h1 className="text-6xl font-semibold text-white">
+          <h1 className="lg:text-6xl text-4xl text-center font-semibold text-white text-balance lg:text-wrap lg:px-0 px-12">
             Jelajah Tempat Wisata di{" "}
             <span className="text-transparent gradiasi-hijau bg-clip-text">
               Malang
             </span>
           </h1>
-          <p className="text-white w-1/2 text-center text-lg">
+          <p className="text-white lg:w-1/2 lg:px-0 px-12 text-center lg:text-lg">
             Temukan keindahanan alam dan keanekaragaman wisata di Malang. Mulai
             dari pantai, air terjun, kebun binatang, wisata air, wahana dan
             lain-lain.
           </p>
 
-          <div className="w-2/4 relative rounded-full">
+          <div className="lg:w-2/4 w-3/4 relative rounded-full">
             <Command className="rounded-full px-4">
               <CommandInput
                 placeholder="Cari tempat wisata..."
