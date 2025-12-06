@@ -48,11 +48,11 @@ const dataGrid = [
 export default function GridImage() {
   return (
     <>
-      <div className="grid grid-cols-6 grid-rows-4 gap-6 h-dvh w-fit px-8">
+      <div className="md:grid flex flex-col grid-cols-6 grid-rows-4 gap-6  lg:h-dvh h-fit w-fit lg:px-8">
         {dataGrid.map((item) => (
           <Link
             to={`/`}
-            className={`group ${item.className} relative w-full h-full overflow-hidden rounded-3xl`}
+            className={`group ${item.className} relative w-full lg:h-full h-80 overflow-hidden rounded-3xl`}
           >
             <img
               src={item.image}

@@ -57,7 +57,7 @@ export default function GridWisata({ slice = true, search = true }) {
   return (
     <>
       {search && (
-        <div className="w-2/4 relative mx-auto mb-20">
+        <div className="lg:w-2/4 w-4/5 relative mx-auto mb-20">
           <Command className="rounded-full bg-green-50 border-2 border-green-500 px-4">
             <CommandInput
               placeholder="Cari tempat wisata..."
@@ -69,7 +69,7 @@ export default function GridWisata({ slice = true, search = true }) {
         </div>
       )}
       {isDataDitemukan ? (
-        <div className="grid grid-cols-3 gap-14 font-poppins">
+        <div className="grid lg:grid-cols-3 grid-cols-1 gap-14 font-poppins">
           {wisata.slice(0, slice ? 6 : wisata.length).map((item) => (
             <Card
               className="rounded-4xl shadow-lg overflow-hidden hover:shadow-xl justify-between hover:scale-[102%] duration-200 ease-in-out"

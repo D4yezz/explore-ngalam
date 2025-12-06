@@ -5,19 +5,23 @@ import { ArrowRight } from "lucide-react";
 export default function Wisata() {
   return (
     <>
-      <section className="flex flex-col w-full font-outfit px-14 gap-14 my-20" id="wisata">
-        <div className="flex justify-between w-full">
-          <div className="flex flex-col gap-2 w-1/2">
+      <section
+        className="flex flex-col w-full font-outfit lg:px-14 px-6 gap-14 my-20"
+        id="wisata"
+      >
+        <div className="flex lg:flex-row flex-col justify-between w-full">
+          <div className="flex flex-col gap-2 lg:w-1/2 text-center lg:text-left">
             <h1 className="text-4xl font-semibold gradiasi-hijau text-transparent bg-clip-text">
               Jelajah Wisata di Malang
             </h1>
             <p className="text-lg">
-              Ayo jelajahi wisata di Malang dan nikmati keindahan alam dan keanekaragaman wisata
+              Ayo jelajahi wisata di Malang dan nikmati keindahan alam dan
+              keanekaragaman wisata
             </p>
           </div>
           <Link
             to={"/tambah/wisata"}
-            className="flex items-center gap-2 text-lg text-neutral-900"
+            className="flex items-center gap-2 text-lg text-neutral-900 lg:visible invisible"
           >
             Lihat Tabel Wisata
             <span className="gradiasi-hijau p-1 rounded-full text-white">

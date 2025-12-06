@@ -59,7 +59,7 @@ export default function TableWisata() {
     <section className="w-full font-poppins min-h-screen py-12 px-4 pt-20 sm:px-6 lg:px-16">
       <div className="mx-auto">
         <div className="mb-8 w-full flex flex-col items-center">
-          <h1 className="text-3xl font-semibold text-gray-800 mb-2">
+          <h1 className="text-3xl font-semibold text-gray-800 mb-2 text-center">
             Daftar Tempat Wisata di Malang
           </h1>
           <p className="text-gray-600">
