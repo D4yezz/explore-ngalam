@@ -208,7 +208,7 @@ export default function FasilitasTable() {
                               <p className="font-semibold">
                                 Kapasitas: {item.kapasitas}
                               </p>
-                              <span className="flex items-center px-4 py-1 rounded-full gradiasi-hijau w-fit text-white font-semibold">
+                              <span className="flex items-center px-4 py-1 rounded-full gradiasi-hijau w-fit text-white font-semibold mx-auto lg:mx-0">
                                 {item.kategori_fasilitas}
                               </span>
                             </DialogHeader>

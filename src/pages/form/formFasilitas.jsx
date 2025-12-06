@@ -9,7 +9,7 @@ export default function FormFasilitasPage() {
           tombolAtas={"Tabel Fasilitas"}
           linkTombolAtas={"/tambah/fasilitas"}
         />
-        <div className="px-16 pt-34 flex flex-col items-center font-urbanist relative">
+        <div className="lg:px-16 px-6 pt-34 flex flex-col items-center font-urbanist relative">
           <h1 className="text-4xl font-bold text-white">
             Formulir Fasilitas Wisata
           </h1>

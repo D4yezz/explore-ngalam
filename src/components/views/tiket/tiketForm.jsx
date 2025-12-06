@@ -70,7 +70,7 @@ export default function TiketForm() {
       <div className="w-full mt-12 flex justify-center font-montserrat">
         <form
           onSubmit={handleInsertTiket}
-          className="flex flex-col gap-8 w-[50vw] rounded-3xl shadow-lg p-6 bg-white"
+          className="flex flex-col gap-8 lg:w-[50vw] w-full rounded-3xl shadow-lg p-6 bg-white"
         >
           <h3 className="text-2xl font-medium font-outfit gradiasi-hijau text-transparent bg-clip-text">
             Isi Formulir Fasilitas Berikut
